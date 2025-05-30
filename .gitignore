@@ -1,0 +1,5 @@
+bookvenv/        
+.env             
+__pycache__/     
+uploaded_books/
+.DS_Store/ 
