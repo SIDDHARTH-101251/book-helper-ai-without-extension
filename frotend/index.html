@@ -47,6 +47,7 @@
     <div class="flex space-x-4 mt-4">
       <button
         id="askBtn"
+        type="button"
         disabled
         class="flex-1 bg-indigo-600 disabled:bg-indigo-300 text-white font-bold py-2 rounded-md hover:bg-indigo-700 disabled:cursor-not-allowed transition"
       >
@@ -54,6 +55,7 @@
       </button>
       <button
         id="summaryBtn"
+        type="button"
         disabled
         class="flex-1 bg-green-600 disabled:bg-green-300 text-white font-bold py-2 rounded-md hover:bg-green-700 disabled:cursor-not-allowed transition"
       >
@@ -161,7 +163,6 @@
 
           numberOfPages = event.target.value;
           console.log(stringToIntegerArray(numberOfPages));
-
         });
 
         askBtn.addEventListener("click", async (e) => {
